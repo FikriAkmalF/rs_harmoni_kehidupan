@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://images3.alphacoders.com/101/thumb-1920-1010294.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+}
+
+
+.card-login input::placeholder {
+    font-size: 16px; /* Adjust as desired */
+  }
+
+
+.card-login img {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #687eff;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+}
+
+.img-login {
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+}

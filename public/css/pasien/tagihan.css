@@ -1,0 +1,8 @@
+.container {
+    padding-top: 20px;
+}
+
+.card .card-header {
+    background-color: #687eff;
+    color: white;
+}

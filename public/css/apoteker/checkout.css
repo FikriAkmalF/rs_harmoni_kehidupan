@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(https://vmedis.com/wp-content/uploads/2021/09/doctor-using-computer-tablet-search-bar-display-pharmacy-drugstore-shelves-background-online-medical-concept.jpg);
+    background-size: 210vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+  }
+  .card-tittle {
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+  h5::after {
+    color: antiquewhite;
+    text-decoration: underline;
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    width: 95%;
+    height: 1px;
+    background-color: black;
+  }
+  .card {
+    width: 35rem;
+    opacity: 0.7;
+  }

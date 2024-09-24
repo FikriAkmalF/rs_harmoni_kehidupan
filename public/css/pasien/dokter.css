@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Memastikan card-container berada di tengah */
+    gap: 4rem;
+}
+
+.card {
+    width: 15rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Memastikan gambar berada di tengah secara horizontal */
+}
+
+.card .card-img-top {
+width: 40%; /* Memastikan gambar memenuhi lebar card */
+height: auto; /* Menjaga proporsi gambar */
+}
+
+.card .card-img-top-2 {
+width: 50%; /* Memastikan gambar memenuhi lebar card */
+height: auto; /* Menjaga proporsi gambar */
+}
+
+.card .card-img-top-3 {
+width: 100%; /* Memastikan gambar memenuhi lebar card */
+height: auto; /* Menjaga proporsi gambar */
+}
+
+.card-body {
+    text-align: left; /* Memastikan teks tidak berada di tengah */
+}
+
+.anggota {
+    margin-left: 1rem; /* Sesuaikan nilai sesuai kebutuhan */
+}

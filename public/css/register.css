@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://images3.alphacoders.com/101/thumb-1920-1010294.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-register {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+}
+
+.form-control::placeholder {
+    font-size: 16px; /* Sesuaikan ukuran font sesuai keinginan */
+}
+
+.card-register img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-color: #687eff;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+}
+
+.register {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+}
+
+.img-fluid {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+}
+

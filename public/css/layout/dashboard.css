@@ -1,0 +1,70 @@
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 60px; /* Add padding at the bottom to prevent overlap with footer */
+}
+
+.health-solutions {
+    font-size: 22px;
+    font-weight: bold;
+    color: black; /* Ensure health solutions text is black */
+}
+
+.additional-info {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black; /* Ensure additional info text is black */
+}
+
+.info-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info-box {
+    background-color: #d9d9d9; /* Background color for the info boxes */
+    color: black; /* Text color inside the info boxes */
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(48% - 10px); /* Adjusted width for more compact layout */
+    min-width: 180px; /* Reduced minimum width */
+    height: 180px; /* Increased height for boxes with icons */
+    margin-bottom: 20px; /* Space between rows of boxes */
+}
+
+.info-box img {
+    height: 80px; /* Increased icon size */
+    margin-top: 10px; /* Space between text and icon */
+}
+
+.info-box a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .info-box {
+        flex: 1 1 calc(48% - 20px); /* 2 boxes per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .info-box {
+        flex: 1 1 100%; /* 1 box per row on extra-small screens */
+    }
+}
+
+p {
+    font-size: 15px;
+}
